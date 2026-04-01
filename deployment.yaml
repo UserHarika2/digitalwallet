@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-test-app
-        image: harika1305/java-test-app:latest  # Changed to lowercase
+        image: harika1305/digitalwallet:latest  # Changed to lowercase
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
