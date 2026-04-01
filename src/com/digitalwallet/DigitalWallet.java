@@ -1,7 +1,7 @@
 package com.digitalwallet;
 
 public class DigitalWallet {
-    private String userId;
+    private final String userId;
     private double balance;
 
     // Constructor
